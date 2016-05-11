@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Demo2.com by yanwuguangjun</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.js"></script>
-  </head>
-  <body>
-    <div>
-      <div>
-        <div class="section"><h1>第一页</h1></div>
-        <div class="section"><h1>第二页</h1></div>
-        <div class="section"><h1>第三页</h1></div>
-        <div class="section"><h1>第四页</h1></div>
-      </div>
-    </div>
-    <script>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+				
+			}
+		  	.section1{
+		  		text-align: center;
+		  		background: #CCCCCC;
+		  	}
+		</style>
+		
+	</head>
+	<body>
+		<div id="fullpage">
+			<div class="section section1">
+				<div class="slide">tout</div>
+				<div class="slide">tout1</div>
+				<div class="slide">21423</div>
+			</div>
+			<div class="section ">
+				<div class="slide">slide1</div>
+				<div class="slide">slide2</div>
+			</div>
+			<div class="section section1"><h1>2</h1></div>
+			<div class="section section1"><h1>3</h1></div>
+		</div>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/move.js/0.5.0/move.min.js"></script>
+			<script>
 				$(document).ready(function(){
 					$("#fullpage").fullpage();
 				});
 			</script>
-
-  
-  </body>
+	</body>
 </html>
